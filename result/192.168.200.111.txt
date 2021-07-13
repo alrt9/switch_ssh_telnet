@@ -1,0 +1,641 @@
+screen-length 0 temporary
+Info: The configuration takes effect on the current user terminal interface only.
+<sw>
+screen-length 0 temporary
+Info: The configuration takes effect on the current user terminal interface only.
+<sw>
+screen-length 0 temporary
+Info: The configuration takes effect on the current user terminal interface only.
+<sw>
+screen-length 0 temporary
+Info: The configuration takes effect on the current user terminal interface only.
+<sw>
+screen-length 0 temporary
+Info: The configuration takes effect on the current user terminal interface only.
+<sw>
+dis cu
+#
+sysname sw
+#
+cluster enable
+ntdp enable
+ndp enable
+#
+drop illegal-mac alarm
+#
+diffserv domain default
+#
+drop-profile default
+#
+aaa
+ authentication-scheme default
+ authorization-scheme default
+ accounting-scheme default
+ domain default
+ domain default_admin
+ local-user admin password cipher "=LP!6$^-IYNZPO3JBXBHA!!
+ local-user admin privilege level 3
+ local-user admin service-type telnet
+#
+interface Vlanif1
+ ip address 192.168.200.111 255.255.255.0
+#
+interface MEth0/0/1
+#
+interface GigabitEthernet0/0/1
+ port link-type trunk
+#
+interface GigabitEthernet0/0/2
+#
+interface GigabitEthernet0/0/3
+#
+interface GigabitEthernet0/0/4
+#
+interface GigabitEthernet0/0/5
+#
+interface GigabitEthernet0/0/6
+#
+interface GigabitEthernet0/0/7
+#
+interface GigabitEthernet0/0/8
+#
+interface GigabitEthernet0/0/9
+#
+interface GigabitEthernet0/0/10
+#
+interface GigabitEthernet0/0/11
+#
+interface GigabitEthernet0/0/12
+#
+interface GigabitEthernet0/0/13
+#
+interface GigabitEthernet0/0/14
+#
+interface GigabitEthernet0/0/15
+#
+interface GigabitEthernet0/0/16
+#
+interface GigabitEthernet0/0/17
+#
+interface GigabitEthernet0/0/18
+#
+interface GigabitEthernet0/0/19
+#
+interface GigabitEthernet0/0/20
+#
+interface GigabitEthernet0/0/21
+#
+interface GigabitEthernet0/0/22
+#
+interface GigabitEthernet0/0/23
+#
+interface GigabitEthernet0/0/24
+#
+interface NULL0
+#
+user-interface con 0
+user-interface vty 0 4
+ authentication-mode aaa
+ user privilege level 3
+ idle-timeout 20 0
+#
+port-group trunk
+#
+return
+<sw>
+screen-length 0 temporary
+Info: The configuration takes effect on the current user terminal interface only.
+<sw>
+dis interface brief
+PHY: Physical
+*down: administratively down
+(l): loopback
+(s): spoofing
+(b): BFD down
+(e): ETHOAM down
+(dl): DLDP down
+(d): Dampening Suppressed
+InUti/OutUti: input utility/output utility
+Interface                   PHY   Protocol InUti OutUti   inErrors  outErrors
+GigabitEthernet0/0/1        up    up          0%     0%          0          0
+GigabitEthernet0/0/2        down  down        0%     0%          0          0
+GigabitEthernet0/0/3        down  down        0%     0%          0          0
+GigabitEthernet0/0/4        down  down        0%     0%          0          0
+GigabitEthernet0/0/5        down  down        0%     0%          0          0
+GigabitEthernet0/0/6        down  down        0%     0%          0          0
+GigabitEthernet0/0/7        down  down        0%     0%          0          0
+GigabitEthernet0/0/8        down  down        0%     0%          0          0
+GigabitEthernet0/0/9        down  down        0%     0%          0          0
+GigabitEthernet0/0/10       down  down        0%     0%          0          0
+GigabitEthernet0/0/11       down  down        0%     0%          0          0
+GigabitEthernet0/0/12       down  down        0%     0%          0          0
+GigabitEthernet0/0/13       down  down        0%     0%          0          0
+GigabitEthernet0/0/14       down  down        0%     0%          0          0
+GigabitEthernet0/0/15       down  down        0%     0%          0          0
+GigabitEthernet0/0/16       down  down        0%     0%          0          0
+GigabitEthernet0/0/17       down  down        0%     0%          0          0
+GigabitEthernet0/0/18       down  down        0%     0%          0          0
+GigabitEthernet0/0/19       down  down        0%     0%          0          0
+GigabitEthernet0/0/20       down  down        0%     0%          0          0
+GigabitEthernet0/0/21       down  down        0%     0%          0          0
+GigabitEthernet0/0/22       down  down        0%     0%          0          0
+GigabitEthernet0/0/23       down  down        0%     0%          0          0
+GigabitEthernet0/0/24       down  down        0%     0%          0          0
+MEth0/0/1                   down  down        0%     0%          0          0
+NULL0                       up    up(s)       0%     0%          0          0
+Vlanif1                     up    up          --     --          0          0
+<sw>
+dis cu
+#
+sysname sw
+#
+cluster enable
+ntdp enable
+ndp enable
+#
+drop illegal-mac alarm
+#
+diffserv domain default
+#
+drop-profile default
+#
+aaa
+ authentication-scheme default
+ authorization-scheme default
+ accounting-scheme default
+ domain default
+ domain default_admin
+ local-user admin password cipher "=LP!6$^-IYNZPO3JBXBHA!!
+ local-user admin privilege level 3
+ local-user admin service-type telnet
+#
+interface Vlanif1
+ ip address 192.168.200.111 255.255.255.0
+#
+interface MEth0/0/1
+#
+interface GigabitEthernet0/0/1
+ port link-type trunk
+#
+interface GigabitEthernet0/0/2
+#
+interface GigabitEthernet0/0/3
+#
+interface GigabitEthernet0/0/4
+#
+interface GigabitEthernet0/0/5
+#
+interface GigabitEthernet0/0/6
+#
+interface GigabitEthernet0/0/7
+#
+interface GigabitEthernet0/0/8
+#
+interface GigabitEthernet0/0/9
+#
+interface GigabitEthernet0/0/10
+#
+interface GigabitEthernet0/0/11
+#
+interface GigabitEthernet0/0/12
+#
+interface GigabitEthernet0/0/13
+#
+interface GigabitEthernet0/0/14
+#
+interface GigabitEthernet0/0/15
+#
+interface GigabitEthernet0/0/16
+#
+interface GigabitEthernet0/0/17
+#
+interface GigabitEthernet0/0/18
+#
+interface GigabitEthernet0/0/19
+#
+interface GigabitEthernet0/0/20
+#
+interface GigabitEthernet0/0/21
+#
+interface GigabitEthernet0/0/22
+#
+interface GigabitEthernet0/0/23
+#
+interface GigabitEthernet0/0/24
+#
+interface NULL0
+#
+user-interface con 0
+user-interface vty 0 4
+ authentication-mode aaa
+ user privilege level 3
+ idle-timeout 20 0
+#
+port-group trunk
+#
+return
+<sw>
+
+<sw>
+screen-length 0 temporary
+Info: The configuration takes effect on the current user terminal interface only.
+<sw>
+dis interface brief
+PHY: Physical
+*down: administratively down
+(l): loopback
+(s): spoofing
+(b): BFD down
+(e): ETHOAM down
+(dl): DLDP down
+(d): Dampening Suppressed
+InUti/OutUti: input utility/output utility
+Interface                   PHY   Protocol InUti OutUti   inErrors  outErrors
+GigabitEthernet0/0/1        up    up          0%     0%          0          0
+GigabitEthernet0/0/2        down  down        0%     0%          0          0
+GigabitEthernet0/0/3        down  down        0%     0%          0          0
+GigabitEthernet0/0/4        down  down        0%     0%          0          0
+GigabitEthernet0/0/5        down  down        0%     0%          0          0
+GigabitEthernet0/0/6        down  down        0%     0%          0          0
+GigabitEthernet0/0/7        down  down        0%     0%          0          0
+GigabitEthernet0/0/8        down  down        0%     0%          0          0
+GigabitEthernet0/0/9        down  down        0%     0%          0          0
+GigabitEthernet0/0/10       down  down        0%     0%          0          0
+GigabitEthernet0/0/11       down  down        0%     0%          0          0
+GigabitEthernet0/0/12       down  down        0%     0%          0          0
+GigabitEthernet0/0/13       down  down        0%     0%          0          0
+GigabitEthernet0/0/14       down  down        0%     0%          0          0
+GigabitEthernet0/0/15       down  down        0%     0%          0          0
+GigabitEthernet0/0/16       down  down        0%     0%          0          0
+GigabitEthernet0/0/17       down  down        0%     0%          0          0
+GigabitEthernet0/0/18       down  down        0%     0%          0          0
+GigabitEthernet0/0/19       down  down        0%     0%          0          0
+GigabitEthernet0/0/20       down  down        0%     0%          0          0
+GigabitEthernet0/0/21       down  down        0%     0%          0          0
+GigabitEthernet0/0/22       down  down        0%     0%          0          0
+GigabitEthernet0/0/23       down  down        0%     0%          0          0
+GigabitEthernet0/0/24       down  down        0%     0%          0          0
+MEth0/0/1                   down  down        0%     0%          0          0
+NULL0                       up    up(s)       0%     0%          0          0
+Vlanif1                     up    up          --     --          0          0
+<sw>
+dis cu
+#
+sysname sw
+#
+cluster enable
+ntdp enable
+ndp enable
+#
+drop illegal-mac alarm
+#
+diffserv domain default
+#
+drop-profile default
+#
+aaa
+ authentication-scheme default
+ authorization-scheme default
+ accounting-scheme default
+ domain default
+ domain default_admin
+ local-user admin password cipher "=LP!6$^-IYNZPO3JBXBHA!!
+ local-user admin privilege level 3
+ local-user admin service-type telnet
+#
+interface Vlanif1
+ ip address 192.168.200.111 255.255.255.0
+#
+interface MEth0/0/1
+#
+interface GigabitEthernet0/0/1
+ port link-type trunk
+#
+interface GigabitEthernet0/0/2
+#
+interface GigabitEthernet0/0/3
+#
+interface GigabitEthernet0/0/4
+#
+interface GigabitEthernet0/0/5
+#
+interface GigabitEthernet0/0/6
+#
+interface GigabitEthernet0/0/7
+#
+interface GigabitEthernet0/0/8
+#
+interface GigabitEthernet0/0/9
+#
+interface GigabitEthernet0/0/10
+#
+interface GigabitEthernet0/0/11
+#
+interface GigabitEthernet0/0/12
+#
+interface GigabitEthernet0/0/13
+#
+interface GigabitEthernet0/0/14
+#
+interface GigabitEthernet0/0/15
+#
+interface GigabitEthernet0/0/16
+#
+interface GigabitEthernet0/0/17
+#
+interface GigabitEthernet0/0/18
+#
+interface GigabitEthernet0/0/19
+#
+interface GigabitEthernet0/0/20
+#
+interface GigabitEthernet0/0/21
+#
+interface GigabitEthernet0/0/22
+#
+interface GigabitEthernet0/0/23
+#
+interface GigabitEthernet0/0/24
+#
+interface NULL0
+#
+user-interface con 0
+user-interface vty 0 4
+ authentication-mode aaa
+ user privilege level 3
+ idle-timeout 20 0
+#
+port-group trunk
+#
+return
+<sw>
+
+<sw>
+screen-length 0 temporary
+Info: The configuration takes effect on the current user terminal interface only.
+<sw>
+dis interface brief
+PHY: Physical
+*down: administratively down
+(l): loopback
+(s): spoofing
+(b): BFD down
+(e): ETHOAM down
+(dl): DLDP down
+(d): Dampening Suppressed
+InUti/OutUti: input utility/output utility
+Interface                   PHY   Protocol InUti OutUti   inErrors  outErrors
+GigabitEthernet0/0/1        up    up          0%     0%          0          0
+GigabitEthernet0/0/2        down  down        0%     0%          0          0
+GigabitEthernet0/0/3        down  down        0%     0%          0          0
+GigabitEthernet0/0/4        down  down        0%     0%          0          0
+GigabitEthernet0/0/5        down  down        0%     0%          0          0
+GigabitEthernet0/0/6        down  down        0%     0%          0          0
+GigabitEthernet0/0/7        down  down        0%     0%          0          0
+GigabitEthernet0/0/8        down  down        0%     0%          0          0
+GigabitEthernet0/0/9        down  down        0%     0%          0          0
+GigabitEthernet0/0/10       down  down        0%     0%          0          0
+GigabitEthernet0/0/11       down  down        0%     0%          0          0
+GigabitEthernet0/0/12       down  down        0%     0%          0          0
+GigabitEthernet0/0/13       down  down        0%     0%          0          0
+GigabitEthernet0/0/14       down  down        0%     0%          0          0
+GigabitEthernet0/0/15       down  down        0%     0%          0          0
+GigabitEthernet0/0/16       down  down        0%     0%          0          0
+GigabitEthernet0/0/17       down  down        0%     0%          0          0
+GigabitEthernet0/0/18       down  down        0%     0%          0          0
+GigabitEthernet0/0/19       down  down        0%     0%          0          0
+GigabitEthernet0/0/20       down  down        0%     0%          0          0
+GigabitEthernet0/0/21       down  down        0%     0%          0          0
+GigabitEthernet0/0/22       down  down        0%     0%          0          0
+GigabitEthernet0/0/23       down  down        0%     0%          0          0
+GigabitEthernet0/0/24       down  down        0%     0%          0          0
+MEth0/0/1                   down  down        0%     0%          0          0
+NULL0                       up    up(s)       0%     0%          0          0
+Vlanif1                     up    up          --     --          0          0
+<sw>
+dis cu
+#
+sysname sw
+#
+cluster enable
+ntdp enable
+ndp enable
+#
+drop illegal-mac alarm
+#
+diffserv domain default
+#
+drop-profile default
+#
+aaa
+ authentication-scheme default
+ authorization-scheme default
+ accounting-scheme default
+ domain default
+ domain default_admin
+ local-user admin password cipher "=LP!6$^-IYNZPO3JBXBHA!!
+ local-user admin privilege level 3
+ local-user admin service-type telnet
+#
+interface Vlanif1
+ ip address 192.168.200.111 255.255.255.0
+#
+interface MEth0/0/1
+#
+interface GigabitEthernet0/0/1
+ port link-type trunk
+#
+interface GigabitEthernet0/0/2
+#
+interface GigabitEthernet0/0/3
+#
+interface GigabitEthernet0/0/4
+#
+interface GigabitEthernet0/0/5
+#
+interface GigabitEthernet0/0/6
+#
+interface GigabitEthernet0/0/7
+#
+interface GigabitEthernet0/0/8
+#
+interface GigabitEthernet0/0/9
+#
+interface GigabitEthernet0/0/10
+#
+interface GigabitEthernet0/0/11
+#
+interface GigabitEthernet0/0/12
+#
+interface GigabitEthernet0/0/13
+#
+interface GigabitEthernet0/0/14
+#
+interface GigabitEthernet0/0/15
+#
+interface GigabitEthernet0/0/16
+#
+interface GigabitEthernet0/0/17
+#
+interface GigabitEthernet0/0/18
+#
+interface GigabitEthernet0/0/19
+#
+interface GigabitEthernet0/0/20
+#
+interface GigabitEthernet0/0/21
+#
+interface GigabitEthernet0/0/22
+#
+interface GigabitEthernet0/0/23
+#
+interface GigabitEthernet0/0/24
+#
+interface NULL0
+#
+user-interface con 0
+user-interface vty 0 4
+ authentication-mode aaa
+ user privilege level 3
+ idle-timeout 20 0
+#
+port-group trunk
+#
+return
+<sw>
+
+<sw>
+screen-length 0 temporary
+Info: The configuration takes effect on the current user terminal interface only.
+<sw>
+dis interface brief
+PHY: Physical
+*down: administratively down
+(l): loopback
+(s): spoofing
+(b): BFD down
+(e): ETHOAM down
+(dl): DLDP down
+(d): Dampening Suppressed
+InUti/OutUti: input utility/output utility
+Interface                   PHY   Protocol InUti OutUti   inErrors  outErrors
+GigabitEthernet0/0/1        up    up          0%     0%          0          0
+GigabitEthernet0/0/2        down  down        0%     0%          0          0
+GigabitEthernet0/0/3        down  down        0%     0%          0          0
+GigabitEthernet0/0/4        down  down        0%     0%          0          0
+GigabitEthernet0/0/5        down  down        0%     0%          0          0
+GigabitEthernet0/0/6        down  down        0%     0%          0          0
+GigabitEthernet0/0/7        down  down        0%     0%          0          0
+GigabitEthernet0/0/8        down  down        0%     0%          0          0
+GigabitEthernet0/0/9        down  down        0%     0%          0          0
+GigabitEthernet0/0/10       down  down        0%     0%          0          0
+GigabitEthernet0/0/11       down  down        0%     0%          0          0
+GigabitEthernet0/0/12       down  down        0%     0%          0          0
+GigabitEthernet0/0/13       down  down        0%     0%          0          0
+GigabitEthernet0/0/14       down  down        0%     0%          0          0
+GigabitEthernet0/0/15       down  down        0%     0%          0          0
+GigabitEthernet0/0/16       down  down        0%     0%          0          0
+GigabitEthernet0/0/17       down  down        0%     0%          0          0
+GigabitEthernet0/0/18       down  down        0%     0%          0          0
+GigabitEthernet0/0/19       down  down        0%     0%          0          0
+GigabitEthernet0/0/20       down  down        0%     0%          0          0
+GigabitEthernet0/0/21       down  down        0%     0%          0          0
+GigabitEthernet0/0/22       down  down        0%     0%          0          0
+GigabitEthernet0/0/23       down  down        0%     0%          0          0
+GigabitEthernet0/0/24       down  down        0%     0%          0          0
+MEth0/0/1                   down  down        0%     0%          0          0
+NULL0                       up    up(s)       0%     0%          0          0
+Vlanif1                     up    up          --     --          0          0
+<sw>
+dis cu
+#
+sysname sw
+#
+cluster enable
+ntdp enable
+ndp enable
+#
+drop illegal-mac alarm
+#
+diffserv domain default
+#
+drop-profile default
+#
+aaa
+ authentication-scheme default
+ authorization-scheme default
+ accounting-scheme default
+ domain default
+ domain default_admin
+ local-user admin password cipher "=LP!6$^-IYNZPO3JBXBHA!!
+ local-user admin privilege level 3
+ local-user admin service-type telnet
+#
+interface Vlanif1
+ ip address 192.168.200.111 255.255.255.0
+#
+interface MEth0/0/1
+#
+interface GigabitEthernet0/0/1
+ port link-type trunk
+#
+interface GigabitEthernet0/0/2
+#
+interface GigabitEthernet0/0/3
+#
+interface GigabitEthernet0/0/4
+#
+interface GigabitEthernet0/0/5
+#
+interface GigabitEthernet0/0/6
+#
+interface GigabitEthernet0/0/7
+#
+interface GigabitEthernet0/0/8
+#
+interface GigabitEthernet0/0/9
+#
+interface GigabitEthernet0/0/10
+#
+interface GigabitEthernet0/0/11
+#
+interface GigabitEthernet0/0/12
+#
+interface GigabitEthernet0/0/13
+#
+interface GigabitEthernet0/0/14
+#
+interface GigabitEthernet0/0/15
+#
+interface GigabitEthernet0/0/16
+#
+interface GigabitEthernet0/0/17
+#
+interface GigabitEthernet0/0/18
+#
+interface GigabitEthernet0/0/19
+#
+interface GigabitEthernet0/0/20
+#
+interface GigabitEthernet0/0/21
+#
+interface GigabitEthernet0/0/22
+#
+interface GigabitEthernet0/0/23
+#
+interface GigabitEthernet0/0/24
+#
+interface NULL0
+#
+user-interface con 0
+user-interface vty 0 4
+ authentication-mode aaa
+ user privilege level 3
+ idle-timeout 20 0
+#
+port-group trunk
+#
+return
+<sw>
+
+<sw>
