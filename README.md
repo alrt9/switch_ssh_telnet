@@ -9,6 +9,7 @@ ip_config.xlsx 为IP配置文件，共有四列
 	
 default.conf   命令配置文件 其中有ssh和telnet 两种登录方式执行的命令
      cmd = ls，pwd     命令可以写多条，但需要用,(逗号)分隔
+
 注意：
 	使用telnet登录时，
 	华为交换机，第一条命令必须为screen-length 0 temporary，
